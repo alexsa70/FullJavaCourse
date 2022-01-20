@@ -25,3 +25,4 @@ const jonh = Object.create(soldier);
 //Object.setPrototypeOf(jonh, soldier);
 jonh.sayHello();
 
+console.log(typeof (Number('534534')));

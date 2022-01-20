@@ -96,6 +96,10 @@ const personalMovieDB = {
   }
 };
 
+let timeStampValue = 1642060669; //Get timestamp
+let theDate = new Date(timeStampValue * 1000);
+let date = theDate.toISOString();
+console.log(date);
 
 
 
