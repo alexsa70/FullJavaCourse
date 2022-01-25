@@ -4,7 +4,7 @@
 
 const btn = document.querySelector('button'); //Псевдо массив,Чтобы на каждую кнопку назначить обработчик надо перебрать весь массив метом forEach
 
-const btns = document.querySelectorAll("button");
+const btns = document.querySelectorAll("button"); // Найти все кнопки на странице.
 //Обработчик событий
 
 //старый способ
